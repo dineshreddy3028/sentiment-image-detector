@@ -1,0 +1,47 @@
+📦 model.h5 Download Instructions
+Due to GitHub’s file size limit, the pre-trained model.h5 file is not included in this repository. Please follow the steps below to download and use the model:
+
+✅ Step-by-Step Instructions
+Download the Pre-trained Model
+
+Click the link below to download the model file:
+
+bash
+Copy
+Edit
+https://huggingface.co/Bojadinesh/sentiment-image-detector-model/resolve/main/model.h5
+Create the Model Directory (if needed)
+
+In your project folder (sentiment-image-detector), make sure the root contains the same structure as used in the project.
+
+If there is no existing model.h5, proceed to the next step.
+
+Place the Model File
+
+Once downloaded, move the model.h5 file to the root directory of the project (same level as main.py).
+
+Run the Project
+
+Make sure you have installed the required dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Then, run the project:
+
+bash
+Copy
+Edit
+python main.py
+📌 Note
+If you face any issues with missing packages or errors related to model.h5, make sure:
+
+The model file is exactly named model.h5.
+
+It is placed in the correct folder.
+
+You are using Python 3.10 or compatible.
+
+👨‍💻 Author
+Dinesh B – CSE(AI), Annamacharya Institute of Technology and Sciences, Rajampet
